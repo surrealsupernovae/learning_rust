@@ -1,15 +1,32 @@
+#[derive(Debug)]
+struct Rectangle {
+	width: u32,
+	height: u32,
+}
+
+impl Rectangle {
+	fn area(&self) -> u32 {
+		self.width * self.height
+	} 
+	fn can_hold(&self) -> bool {
+			
+		
+	}
+}
+
 fn main() {
-    let width1 = 10;
-    let height1 = 5;
+
+    let rect1 = Rectangle {
+			width: 20,
+			height: 10,
+    };
 
     println! (
     	"The area of the rectangle is {}",
-    	area(width1, height1)
-
-     );
+    	rect1.area()
+	);
+	println!("rectangle struct {:?}", rect1);
+    
     
 }
 
-fn area( w: u32, l: u32) -> u32 {
-	w * l 
-}
