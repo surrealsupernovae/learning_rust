@@ -30,4 +30,9 @@ fn main() {
 	}
 	let m = Message::Write(String::from("hello"));
 	m.call();
+
+	enum Option<T> {
+		None,
+		Some(T),
+	}
 }
