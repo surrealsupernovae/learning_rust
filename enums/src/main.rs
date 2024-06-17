@@ -31,8 +31,10 @@ fn main() {
 	let m = Message::Write(String::from("hello"));
 	m.call();
 
-	enum Option<T> {
-		None,
-		Some(T),
-	}
+
+	let some_number = Some(5);
+	let some_char = Some('e');  //char defined with ''
+	let null : Option<i32> = None; //the Option<i32> is mandatory here to use none
+	
 }
+
