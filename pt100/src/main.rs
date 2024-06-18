@@ -13,10 +13,8 @@ fn main() {
 
     let deltav = (resistance2 / (r0 + resistance2)) - (resistance / (r0 + resistance));
 
-    
-       // example 1
        let f = f64::powf(10.0, -6.0);
-       // example 2
+       
        let g = f64::powf(10.0, -3.0);
 
        let y = f64::powf(25.0, 2.0);
