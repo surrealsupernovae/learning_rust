@@ -1,21 +1,6 @@
 <<<<<<< HEAD
-mod front_of_house {
+mod front_of_house 
 
-   pub mod hosting {
-
-    pub	fn add_to_waitlist() {}
-
-    	fn add_seat_at_table() {}
-	}
-	
-    mod serving {
-
-    	fn take_order() {}
-    	fn serve_order() {}
-    	
-    } 
-
-}
 
 pub fn eat_at_restaurant() {
 
